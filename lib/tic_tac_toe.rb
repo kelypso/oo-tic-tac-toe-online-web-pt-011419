@@ -86,6 +86,8 @@ class TicTacToe
   end
 
   def play
+    turn until over?
+    puts winner ? "Congratulations #{winner}!" : "Cat's Game!"
     # main method, responsible for the game loop - SEE PSEUDOCODE
   end
 
