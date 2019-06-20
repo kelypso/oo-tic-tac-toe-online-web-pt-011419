@@ -90,5 +90,5 @@ class TicTacToe
     puts winner ? "Congratulations #{winner}!" : "Cat's Game!"
     # main method, responsible for the game loop
   end
-
+end 
 end
