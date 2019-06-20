@@ -20,7 +20,7 @@ class TicTacToe
   end
 
   def input_to_index(input)
-    @board.find_index { |i| i == input.to_i - 1 }
+    @board.find_index{|i| i == input.to_i - 1}
     # return corresponding index from @board array
   end
 
@@ -69,7 +69,7 @@ class TicTacToe
   end
 
   def full?
-    @board.all? { |x| x != " " }
+    @board.all?{|x| x != " "}
   end
 
   def draw?
